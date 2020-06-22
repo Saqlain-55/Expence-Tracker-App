@@ -33,7 +33,7 @@ jobs:
         
     # To build the react app using yarn
     - name: Build React App
-      run: yarn build
+      run: nmp build
     
     # Install surge
     - name: Install surge
