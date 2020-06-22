@@ -36,8 +36,8 @@ jobs:
       run: yarn build
     
     # Install surge
-    - name: Install surge
-      run: npm install -g surge
+    - name: Install Surge
+      run: npm install -g Surge
     
     # Deploy app to surge
     - name: Run surge
