@@ -37,7 +37,7 @@ jobs:
     
     # Install surge
     - name: Install Surge
-      run: npm install -g Surge
+      run: npm install -g surge
     
     # Deploy app to surge
     - name: Run surge
