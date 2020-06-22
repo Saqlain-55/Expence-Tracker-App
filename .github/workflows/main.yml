@@ -41,4 +41,4 @@ jobs:
     
     # Deploy app to surge
     - name: Run surge
-      run: surge ./build track_your_expences.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ build track_your_expences.surge.sh --token ${{secrets.SURGE_TOKEN}}
